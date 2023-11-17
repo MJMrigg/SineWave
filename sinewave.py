@@ -11,7 +11,7 @@ time = np.arange(0, 10, 0.01)
 
 # Create the y value, amplitude, using the sine equation
 # A = sine(F * t), A = Amplitude, F = Frequency, t = time
-amplitude = np.sin(time)
+amplitude = np.sin(2 * time)
 
 
 # Plot the amplitude and time. A color can also be added, in this case, b=blue
